@@ -1,0 +1,9 @@
+div {
+    background-color: rgb(0, 0, 0);
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+
+app-sociales {
+    float: right;
+    margin-top:25px;
+}

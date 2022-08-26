@@ -1,0 +1,52 @@
+#logoAP {
+    width: 180px;
+}
+
+img {
+    width: 60px;
+    padding-right: 12px;
+}
+
+img:hover {
+    width: 65px;
+}
+
+.texto {
+    color: white;
+    font-family: candara;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    text-align: center;
+    display: flex;
+    margin-top: 1%;
+}
+
+.btn {
+    border-width: medium;
+}
+
+/*Vista desde celulares*/
+@media (max-width: 1290px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redes img {
+        padding: 0.3em;
+    }
+}

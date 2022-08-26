@@ -1,0 +1,67 @@
+.row {
+    padding: 20px; 
+    border-bottom: 5px dotted black;    
+    font-family: candara;
+}
+
+div {
+    background-color: rgb(69, 216, 221);
+}
+
+h2 {
+    display: inline-flex;
+    border: 1px solid black;
+    background: linear-gradient(rgb(69, 216, 221), white);
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 {
+    display: inline;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+p {
+    border: 1px solid black;
+    background: linear-gradient(rgb(69, 216, 221), white);
+    text-align: center;
+    font-size: 19px;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.btn-dark:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.img-educacion {
+    max-width: 300px;
+    max-height: 210px;
+    box-shadow: 12px 12px 35px black;
+}
+
+@media (max-width: 581px) {
+    .img-educacion {
+        width: 100px;
+        height: 100px;
+    }
+
+    td {
+        display: block;
+        border: 0px;
+        text-align: center;
+    }
+
+    tr {
+        border-bottom: 5px solid black;
+    }
+
+    
+}

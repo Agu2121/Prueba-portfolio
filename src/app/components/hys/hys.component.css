@@ -1,0 +1,58 @@
+.row {
+    background-color: rgb(69, 216, 221);
+    padding: 20px;
+    border-bottom: 5px dotted black; 
+    font-family: candara;
+}
+
+  h2{
+    font-family: candara;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 1px;  
+  }
+
+  h1 {
+    display: inline;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  .btn-dark:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.col-lg-12 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
+
+td {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.progress-bar {
+  background-color: darkorchid;
+  border: 2px dotted black;
+}
+
+.progress {
+  background-color: white;
+  border: 1px solid;
+  height: 25px;
+}
+
+img {
+  width: 60px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}

@@ -1,0 +1,57 @@
+.row {
+    padding: 20px;
+    border-bottom: 5px dotted black;
+    font-family: candara;   
+    background-color: rgb(69, 216, 221);
+}
+
+h2 ,h3 {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+h1 {
+    display: inline;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+p {
+    font-size: 18px;
+    border-bottom: 3px double black;
+}
+
+td {
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+.btn-dark:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (max-width: 581px) {
+    .img-proyectos {
+        width: 200px;
+        height: 200px;
+    }
+
+    .row {
+        padding: 0%;
+    }
+
+    td {
+        display: block;
+        border: 0px;
+        text-align: center;
+    }
+
+    tr {
+        border-bottom: 5px solid black;
+    }
+}
